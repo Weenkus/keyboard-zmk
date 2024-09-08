@@ -10,11 +10,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                             &mo 3  &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                                              &none  &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC    &lt 1 A    &kp S     &kp D     &kp F      &kp G   &none               &kp LCTRL         &kp LALT    &kp LGUI   &kp RCTRL             &none  &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                         &kp HOME    &kp PG_UP                               &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&kp LCMD   &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                  &lt 4 BSPC  &mt LCTRL DELETE  &sl 4       &kp PG_DN  &kp ENTER  &kp SPACE                 &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&kp EQUAL  &kp N1     &kp N2          &kp N3        &kp N4       &kp N5  &tog 1                                                                                 &mo 3  &kp N6  &kp N7       &kp N8        &kp N9           &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W           &kp E         &kp R        &kp T   &none                                                                                  &none  &kp Y   &kp U        &kp I         &kp O            &kp P     &kp BSLH
+&kp ESC    &lt 1 A    &mt LEFT_ALT S  &mt LSHIFT D  &mt LCTRL F  &kp G   &none                  &kp LCTRL   &kp LALT    &kp LGUI          &kp RCTRL             &none  &kp H   &mt RCTRL J  &mt RSHIFT K  &mt RIGHT_ALT L  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X           &kp C         &kp V        &kp B                                      &kp HOME    &kp PG_UP                                      &kp N   &kp M        &kp COMMA     &kp DOT          &kp FSLH  &kp RSHFT
+&kp LCMD   &kp GRAVE  &kp CAPS        &kp LEFT      &kp RIGHT                    &kp BACKSPACE  &kp DELETE  &sl 4       &kp LEFT_COMMAND  &kp ENTER  &kp SPACE                 &kp UP       &kp DOWN      &kp LBKT         &kp RBKT  &mo 2
             >;
         };
 
