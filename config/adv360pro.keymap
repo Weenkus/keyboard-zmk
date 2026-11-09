@@ -13,8 +13,8 @@
 &kp EQUAL  &kp N1     &kp N2  &kp N3    &kp N4     &kp N5  &none                                                                                      &mo 3  &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
 &kp TAB    &kp Q      &kp W   &kp E     &lt 1 R    &kp T   &none                                                                                      &none  &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
 &kp ESC    &kp A      &kp S   &kp D     &kp F      &kp G   &kp CAPSLOCK             &kp LCTRL  &kp LALT      &kp RIGHT_GUI  &kp RCTRL                 &none  &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X   &kp C     &kp V      &kp B                                       &kp LGUI      &sl 4                                           &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&kp LCTRL  &kp GRAVE  &none   &kp LEFT  &kp RIGHT                        &kp SPACE  &sl 4      &kp DELETE    &kp LEFT_GUI   &kp ENTER  &kp BACKSPACE                 &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&kp LSHFT  &kp Z      &kp X   &kp C     &kp V      &kp B                                       &kp LGUI      &mo 4                                              &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&kp LCTRL  &kp GRAVE  &none   &kp LEFT  &kp RIGHT                        &kp SPACE  &mo 4         &kp DELETE    &kp LEFT_GUI   &kp ENTER  &kp BACKSPACE                 &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
@@ -50,11 +50,11 @@
 
         koder {
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                         &trans       &none       &none       &none       &none          &none             &none
-&none  &kp GRAVE     &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT   &bootloader                                                   &bootloader  &kp PIPE    &kp SLASH   &kp BSLH    &kp DQT        &kp APOS          &none
-&none  &kp CARET     &kp EXCL      &kp EQUAL     &kp LPAR      &kp RPAR      &none               &none  &none    &bt BT_CLR  &none         &none        &kp AMPS    &kp UNDER   &kp MINUS   &kp PLUS       &kp STAR          &none
-&none  &kp TILDE     &kp LBKT      &kp RBKT      &kp LBRC      &kp RBRC                                 &none    &none                                  &kp DOLLAR  &kp COLON   &kp SEMI    &kp DOT        &kp COMMA         &rgb_ug RGB_TOG
-&none  &none         &none         &none         &none                                    &none  &none  &none    &none       &none  &none                           &bl BL_INC  &bl BL_DEC  &kp LESS_THAN  &kp GREATER_THAN  &bl BL_TOG
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                                                         &trans       &trans       &trans       &trans       &trans          &trans             &trans
+&trans  &kp GRAVE     &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT   &bootloader                                                   &bootloader  &kp PIPE    &kp SLASH   &kp BSLH    &kp DQT        &kp APOS          &trans
+&trans  &kp CARET     &kp EXCL      &kp EQUAL     &kp LPAR      &kp RPAR      &trans               &trans  &trans    &bt BT_CLR  &trans         &trans        &kp AMPS    &kp UNDER   &kp MINUS   &kp PLUS       &kp STAR          &trans
+&trans  &kp TILDE     &kp LBKT      &kp RBKT      &kp LBRC      &kp RBRC                                 &trans    &trans                                  &kp DOLLAR  &kp COLON   &kp SEMI    &kp DOT        &kp COMMA         &rgb_ug RGB_TOG
+&trans  &trans         &trans         &trans         &trans                                    &trans  &trans  &trans    &trans       &trans  &trans                           &bl BL_INC  &bl BL_DEC  &kp LESS_THAN  &kp GREATER_THAN  &bl BL_TOG
             >;
         };
     };
