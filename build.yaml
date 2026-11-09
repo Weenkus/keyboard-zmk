@@ -18,5 +18,9 @@
 #
 ---
 include:
-  - board: adv360pro_left
-  - board: adv360pro_right
+  # Since ZMK moved to Zephyr 4.1, in-tree boards need the `zmk` variant.
+  # See https://zmk.dev/blog/2025/12/09/zephyr-4-1#zmk-board-variant
+  - board: adv360pro_left//zmk
+    artifact-name: adv360pro_left
+  - board: adv360pro_right//zmk
+    artifact-name: adv360pro_right
